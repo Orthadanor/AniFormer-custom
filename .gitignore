@@ -8,6 +8,7 @@ __pycache__/
 *.npz
 *.pkl
 *.obj          # ignores all generated 3D mesh files
+*.hdf5
 
 # Logs and renders
 *.log
