@@ -7,7 +7,7 @@ import pyrender
 import numpy as np
 from pyrender.constants import RenderFlags
 
-import config
+# import config
 
 
 class WeakPerspectiveCamera(pyrender.Camera):

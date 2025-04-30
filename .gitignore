@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Data files
+*.npy          # ← careful, this will ignore ALL .npy files, including valid_triplets.npy
+*.npz
+*.pkl
+*.obj          # ignores all generated 3D mesh files
+
+# Logs and renders
+*.log
+sample_3d_raw/
+saved_model/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Conda / virtual envs (if inside project)
+env/
+.venv/

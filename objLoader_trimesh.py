@@ -13,7 +13,8 @@ class trimesh_load_obj(object):
         self.faces = []
         self.bbox = []
         # print(fileName)
-        obj_info = trimesh.load(fileName, file_type='obj', process=False,use_embree=False)
+        obj_info = trimesh.load(fileName, process=False, use_embree=False)
+        # obj_info = trimesh.load(fileName, file_type='obj', process=False,use_embree=False)
         # print(obj_info)
         #self.vertices = obj_info.vertices
         self.vertices = obj_info.vertices #- obj_info.center_mass
