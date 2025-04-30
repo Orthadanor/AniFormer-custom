@@ -1,3 +1,6 @@
+# Ignore all .obj files under datasets folder
+datasets/**/*.obj
+
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
